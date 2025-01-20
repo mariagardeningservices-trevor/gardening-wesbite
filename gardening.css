@@ -17,6 +17,10 @@
   text-decoration: none;
     padding: 0%
 }
+.gardencard{
+  size: 70px;
+  
+}
 
 
 menuitem{
@@ -54,17 +58,22 @@ line-height: 1.5;
 font-family: "Fira Sans", serif; 
 }
 
-button{
+.buttonnext{
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
+    color: white;
     background-color: green;
     cursor: pointer;
     border-radius: 50px;
+display: block;
     margin: auto;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
 }
 
-button:hover{
+.buttonnext:hover{
     background-color: white;
     color: black;
     
@@ -104,6 +113,8 @@ h1{
     text-align: center;
     font-size: 60px;
     font-family: "Manrope", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:768) {
@@ -112,4 +123,21 @@ h1{
     }
     
     
+}
+
+.gardencard{
+    margin: 1%;
+    vertical-align: top;
+    border-radius: 50px;
+    box-sizing: border-box;
+    
+}
+
+.gardencards{
+    display: inline-block;
+}
+.gardenimg{
+    width: 10px;
+    display: inline-block;
+    border: 0;
 }
